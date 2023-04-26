@@ -39,6 +39,9 @@ def loadTimeLine():
     global timeline
     f=fd.askopenfile().name
     print (f"file name:{f}")
+    with open(f) as json_file:
+        timeline = json.load(json_file)
+    updateEventsList()
 
 def saveTimeLine():
     global timeline
@@ -52,8 +55,8 @@ window = tk.Tk()
 window.title("Timelines")
 window.geometry("600x400")
 
-timeline={"1492":"Scoperta dell'America","1990":"GUNNS","1982":"Campioni del Mondo"}
-
+# timeline={"1492":"Scoperta dell'America","1990":"GUNNS","1982":"Campioni del Mondo"}
+timeline = {}
 
 lblYear = Label(window, text="Year", font=("Verdana", 8))
 lblYear.pack()

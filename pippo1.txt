@@ -1,0 +1,1 @@
+{"1492": "Scoperta dell'America", "1969": "Apollo 11", "1982": "Campioni del Mondo", "1990": "GUNNS"}
