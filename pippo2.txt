@@ -1,0 +1,1 @@
+{"1000": "Fine del primo millennio", "1492": "Scoperta dell'America", "1800": "XIX secolo", "1969": "Apollo 11", "1982": "Campioni del Mondo", "1990": "GUNNS", "2000": "Calendario Maya", "2001": "Attentato alle torri gemelle", "2002": "Guerra del Golfo", "2020": "COVID 19", "2021": "ALTRO", "2022": "Guerra in Ucraina", "2023": "Questo Programma"}
